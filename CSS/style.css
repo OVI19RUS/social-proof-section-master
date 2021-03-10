@@ -16,7 +16,8 @@ h1 {font-weight: 700;}
 /* Containers and divs */
 
 .container-fluid {padding: 15% 15% 2%;
-color: white;}
+color: white;
+line-height: 1.8;}
 
 .container-fluid-two {color: white;
 padding: 0 15% 0 15%;
@@ -40,6 +41,13 @@ font-weight: 700;}
 .Star-image {float: left;
 margin-right: 5px;}
 
+.Reviews {margin-right: 150px;}
+
+.Guru {margin-left: 75px;
+margin-right: 75px;}
+
+.BestTech {margin-left: 150px;}
+
 /* Cards */
 
 .card-box {background-color: hsl(300, 43%, 22%);
@@ -47,6 +55,7 @@ padding: 2%;
 height: 100%;
 margin-right: 19px;
 width: 30%;
+line-height: 1.7;
 }
 
 .Irene {margin-top: 3%;}
@@ -81,6 +90,7 @@ text-align: center;}
 
 .rating {margin-top: 30px;
 }
+.rating-text {margin: 5px 0 5px;}
 
 .card-box {padding: 8%;
 width: 100%;}
