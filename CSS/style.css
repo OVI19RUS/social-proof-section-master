@@ -1,0 +1,84 @@
+body {font-family: 'Spartan', sans-serif;
+font-size: 15px;
+position: relative;
+overflow: hidden;}
+
+.Top-Background-image, .Bottom-Background-image {position: absolute;}
+
+.Bottom-Background-image {right: 0;
+bottom: 0;}
+
+.container-fluid {padding: 15% 15% 2%;
+color: white;}
+.container-fluid-two {color: white;
+padding: 0 15%;}
+
+div {border-radius: 1.5%;}
+
+h1, .rating-text {color: hsl(300, 43%, 22%);}
+
+h1 {font-weight: 700;}
+
+.paragraph-text {color: hsl(303, 10%, 53%);
+padding-right: 200px;}
+
+.rating-text {margin: 5px 0;
+background-color: hsl(300, 24%, 96%);
+padding: 3%;
+text-align: center;
+font-weight: 700;}
+
+.Star-image {float: left;
+margin-right: 5px;}
+
+.card-box {background-color: hsl(300, 43%, 22%);
+margin: 0 6px;
+width: 430px;
+height: 130%;
+padding: 1.5%;}
+
+.Irene {margin-top: 3%;}
+
+.Anne {margin-top: 6%;}
+
+.Images {width: 10%;
+border-radius: 50%;
+float: left;}
+
+.name-text {margin-left: 60px;
+color: white;
+font-weight: 700;}
+
+.attribution {
+        font-size: 11px;
+        text-align: center;
+        margin-top: 150px;
+      }
+.attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+
+@media (max-width:1440px) {
+
+body {overflow: visible;} 
+
+.paragraph-text {padding-right: 0px;
+text-align: center;}
+
+.Anne {margin-top: 3%;}
+
+.rating {margin: 30px 0 0 5px;
+}
+
+.card-box {padding: 8%;}
+
+.Images {width: 16%;}
+
+.container-fluid-two {margin-top: 20px;}
+
+.rating-text {display: flex;
+flex-direction: column;}
+
+.Stars {align-self: center;
+margin-bottom: 5px;}
+}
