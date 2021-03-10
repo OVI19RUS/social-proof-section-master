@@ -1,26 +1,35 @@
+/* Body and Background */
+
 body {font-family: 'Spartan', sans-serif;
 font-size: 15px;
-position: relative;
-overflow: hidden;}
+position: relative;}
 
 .Top-Background-image, .Bottom-Background-image {position: absolute;}
 
 .Bottom-Background-image {right: 0;
 bottom: 0;}
 
-.container-fluid {padding: 15% 15% 2%;
-color: white;}
-.container-fluid-two {color: white;
-padding: 0 15%;}
-
-div {border-radius: 1.5%;}
-
 h1, .rating-text {color: hsl(300, 43%, 22%);}
 
 h1 {font-weight: 700;}
 
+/* Containers and divs */
+
+.container-fluid {padding: 15% 15% 2%;
+color: white;}
+
+.container-fluid-two {color: white;
+padding: 0 15% 0 15%;
+}
+
+div {border-radius: 1.5%;}
+
+/* Paragraph */
+
 .paragraph-text {color: hsl(303, 10%, 53%);
 padding-right: 200px;}
+
+/* Rating and Stars */
 
 .rating-text {margin: 5px 0;
 background-color: hsl(300, 24%, 96%);
@@ -31,11 +40,14 @@ font-weight: 700;}
 .Star-image {float: left;
 margin-right: 5px;}
 
+/* Cards */
+
 .card-box {background-color: hsl(300, 43%, 22%);
-margin: 0 6px;
-width: 430px;
-height: 130%;
-padding: 1.5%;}
+padding: 2%;
+height: 100%;
+margin-right: 19px;
+width: 30%;
+}
 
 .Irene {margin-top: 3%;}
 
@@ -49,30 +61,32 @@ float: left;}
 color: white;
 font-weight: 700;}
 
+/*Attribution */
+
 .attribution {
         font-size: 11px;
         text-align: center;
         margin-top: 150px;
-      }
+        }
 .attribution a {
         color: hsl(228, 45%, 44%);
       }
 
-@media (max-width:1440px) {
+/* Media */
 
-body {overflow: visible;} 
+@media (max-width:1080px) {
 
 .paragraph-text {padding-right: 0px;
 text-align: center;}
 
-.Anne {margin-top: 3%;}
-
-.rating {margin: 30px 0 0 5px;
+.rating {margin-top: 30px;
 }
 
-.card-box {padding: 8%;}
+.card-box {padding: 8%;
+width: 100%;}
+.Anne {margin-top: 3%;}
 
-.Images {width: 16%;}
+.Images {width: 46px;}
 
 .container-fluid-two {margin-top: 20px;}
 
