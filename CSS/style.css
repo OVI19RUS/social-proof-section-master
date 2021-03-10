@@ -41,12 +41,13 @@ font-weight: 700;}
 .Star-image {float: left;
 margin-right: 5px;}
 
-.Reviews {margin-right: 150px;}
+.Reviews {margin-right: 250px;}
 
 .Guru {margin-left: 75px;
-margin-right: 75px;}
+margin-right: 180px;}
 
-.BestTech {margin-left: 150px;}
+.BestTech {margin-left: 150px;
+        margin-right: 100px;}
 
 /* Cards */
 
