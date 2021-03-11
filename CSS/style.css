@@ -2,7 +2,8 @@
 
 body {font-family: 'Spartan', sans-serif;
 font-size: 15px;
-position: relative;}
+position: relative;
+height: 100vh;}
 
 .Top-Background-image, .Bottom-Background-image {position: absolute;}
 
@@ -15,20 +16,24 @@ h1 {font-weight: 700;}
 
 /* Containers and divs */
 
-.container-fluid {padding: 15% 15% 2%;
+.container-fluid {padding: 10% 10% 6%;
 color: white;
 line-height: 1.8;}
 
 .container-fluid-two {color: white;
-padding: 0 15% 0 15%;
+padding: 0 10% 0 10%;
 }
 
-div {border-radius: 1.5%;}
+div {border-radius: 12px;}
+
+footer {position: absolute;
+        bottom: 0;
+        width: 100%;}
 
 /* Paragraph */
 
 .paragraph-text {color: hsl(303, 10%, 53%);
-padding-right: 200px;}
+padding-right: 11%;}
 
 /* Rating and Stars */
 
@@ -41,27 +46,27 @@ font-weight: 700;}
 .Star-image {float: left;
 margin-right: 5px;}
 
-.Reviews {margin-right: 16rem;}
+.Reviews {margin-right: 30%;}
 
-.Guru {margin-left: 5rem;
-margin-right: 11rem;}
+.Guru {margin-left: 10%;
+margin-right: 20%;}
 
-.BestTech {margin-left: 10rem;
-        margin-right: 6rem;}
+.BestTech {margin-left: 20%;
+        margin-right: 10%;}
 
 /* Cards */
 
 .card-box {background-color: hsl(300, 43%, 22%);
 padding: 2%;
 height: 100%;
-margin-right: 19px;
+margin-right: 2.6%;
 width: 30%;
 line-height: 1.7;
 }
 
-.Irene {margin-top: 3%;}
+.Irene {margin-top: 2%;}
 
-.Anne {margin-top: 6%;}
+.Anne {margin-top: 4%;}
 
 .Images {width: 10%;
 border-radius: 50%;
@@ -76,7 +81,6 @@ font-weight: 700;}
 .attribution {
         font-size: 11px;
         text-align: center;
-        margin-top: 150px;
         }
 .attribution a {
         color: hsl(228, 45%, 44%);
